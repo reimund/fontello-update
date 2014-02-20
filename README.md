@@ -1,6 +1,6 @@
 # Fontello-update
 
-Easily update your Fontello config.
+Easily update your Fontello config with this nodejs package.
 
 ## Workflow
 
