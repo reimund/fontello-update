@@ -24,11 +24,11 @@ fontelloUpdate({
 ```
 
 ## Options
-* config - The config file to use. Default: 'config.json'.
-* overwrite - Overwrite existing config file. Default: true.
-* dest - Config file destination: Default: 'config.json'.
-* open - Open the package on the fontello website. Default: false.
-* session - The session to use. Default: null.
+* *config* - The config file to use. Default: 'config.json'.
+* *overwrite* - Overwrite existing config file. Default: true.
+* *dest* - Config file destination: Default: 'config.json'.
+* *open* - Open the package on the fontello website. Default: false.
+* *session* - The session to use. Default: null.
 
 ## Return value
 The fontello update function returns a promise. For example, to use it in an
