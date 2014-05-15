@@ -8,7 +8,7 @@ Easily update your Fontello config with this nodejs package.
 2. Pick and remove fonts on the website and press the 'Save session' button.
 3. Run fontello-update to download the new config and font files.
 
-~~Use together with [grunt-fontello](https://www.npmjs.org/package/grunt-fontello) to automatically download the latest package.~~
+~~Use together with [grunt-fontello](https://www.npmjs.org/package/grunt-fontello) to automatically download the latest package.~~  
 Use together with [grunt-fontello-update](https://www.npmjs.org/package/grunt-fontello-update) to run fontello update as a Grunt task.
 
 ## Example
