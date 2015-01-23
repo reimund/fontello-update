@@ -1,6 +1,6 @@
 {
   "name": "fontello-update",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "Updates your Fontello files from your current Fontello session or config.",
   "main": "index.js",
   "scripts": {
@@ -13,12 +13,12 @@
   "author": "Reimund Trost",
   "license": "MIT",
   "dependencies": {
-    "underscore": "~1.6.0",
-    "form-data": "~0.1.2",
-    "request": "~2.34.0",
-    "adm-zip": "~0.4.4",
-    "underscore.string": "~2.3.3",
-    "q": "~1.0.0",
-    "open": "0.0.4"
-  }
+    "underscore": "*",
+    "form-data": "*",
+    "request": "*",
+    "adm-zip": "*",
+    "underscore.string": "*",
+    "q": "~1.1.2",
+    "open": "0.0.5"
+  },
 }
