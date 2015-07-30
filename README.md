@@ -53,7 +53,6 @@ function fontelloUpdate()
 		.catch(done)
 	;
 }
-
 ```
 
 ## Gulp

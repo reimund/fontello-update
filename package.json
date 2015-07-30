@@ -17,12 +17,13 @@
   "author": "Reimund Trost",
   "license": "MIT",
   "dependencies": {
-    "underscore": "*",
-    "form-data": "*",
-    "request": "*",
-    "adm-zip": "*",
-    "underscore.string": "*",
-    "q": "~1.1.2",
-    "open": "0.0.5"
+    "adm-zip": "^0.4.7",
+    "form-data": "^1.0.0-rc3",
+    "open": "0.0.5",
+    "q": "^1.1.2",
+    "request": "^2.60.0",
+    "temp": "^0.8.3",
+    "underscore": "^1.8.3",
+    "underscore.string": "^3.1.1"
   }
 }
