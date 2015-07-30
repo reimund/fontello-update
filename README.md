@@ -36,15 +36,15 @@ fontelloUpdate({
 
 ## Return value
 The fontello update function returns a promise. For example, to use it in an
-asyncronous Grunt task, you would do something like:
+asynchronous Grunt task, you would do something like:
 
- ```javascript
+```javascript
 
 function fontelloUpdate()
 {
 	var done = this.async();
 	var fontelloUpdate = require('fontello-update');
-	
+
 	fontelloUpdate({
 			config: 'fontello.json',
 			dest: 'fontello.json'
@@ -54,4 +54,19 @@ function fontelloUpdate()
 	;
 }
 
- ```
+```
+
+## Gulp
+Basically Fulfill task relying on promises.
+
+```javascript
+var fontelloUpdate = require('fontello-update');
+
+gulp.task('fontello', function() {
+  return fontelloUpdate({
+    config: 'fontello.json',
+    fonts: 'public/font',
+    css: 'public/css'
+  });
+});
+```
