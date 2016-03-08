@@ -30,7 +30,7 @@ fontelloUpdate({
 * **overwrite** - Overwrite existing config file. Default: true.
 * **fonts** - Font files' destination: Default: 'fonts'.
 * **css** - Stylesheets' destination: Default: 'css'.
-* **open** - Open the package on the fontello website. Default: false.
+* **open** - Open the package on the fontello website and don't update the fonts at all. Default: false.
 * **updateConfigOnly** - Only update the config file (ie don't extract font and css files). Default: false.
 * **session** - The session to use. Default: null.
 
