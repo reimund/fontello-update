@@ -1,6 +1,6 @@
 {
   "name": "fontello-update",
-  "version": "0.6.1",
+  "version": "0.6.2",
   "description": "Updates your Fontello files from your current Fontello session or config.",
   "main": "index.js",
   "scripts": {
