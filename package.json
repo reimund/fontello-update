@@ -1,6 +1,6 @@
 {
   "name": "fontello-update",
-  "version": "0.6.4",
+  "version": "0.6.5",
   "description": "Updates your Fontello files from your current Fontello session or config.",
   "main": "index.js",
   "scripts": {
@@ -19,7 +19,7 @@
   "dependencies": {
     "adm-zip": "^0.4.7",
     "form-data": "^1.0.0-rc3",
-    "open": "0.0.5",
+    "open": ">=6.0.0",
     "q": "^1.1.2",
     "request": "^2.60.0",
     "temp": "^0.8.3",
